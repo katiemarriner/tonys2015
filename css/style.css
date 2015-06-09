@@ -1,0 +1,200 @@
+body, html {
+  height: 100%;
+  font-family: 'Lora', serif;
+}
+
+body, .main-header-container {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-container {
+  margin-bottom: 70px;
+}
+
+body {
+  padding-bottom: 70px;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.tony-svg {
+  stroke: #fff;
+  max-width: 60px;
+}
+
+h1 {
+  vertical-align: middle;
+  /*font-family: sans-serif;*/
+  font-weight: 700;
+  color: #333;
+  width: 100%;
+  line-height: 1em;
+  text-shadow: 4px 1px #eee;
+  font-weight: bold;
+  text-transform: none !important;
+  letter-spacing: 1.5px;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.navbar-brand {
+  padding: 7px 15px;
+}
+
+.navbar-right {
+  margin-right: 15px;
+}
+
+.navbar-default .navbar-nav .open a:hover {
+  background-color: #9ED9B0;
+}
+
+.navbar-default .navbar-nav .open a, .navbar-default .navbar-nav .open a:focus, .navbar-default .navbar-nav .open a:hover {
+  background-color: #fff;
+}
+
+.dropdown-menu li a {
+  padding: 0px 20px;
+  line-height: 1.2;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.main-header {
+  width: 100%;
+}
+
+th.Nominee {
+  width: 46%;
+  @media screen and (max-width: 475px) {
+    width: 30%;
+  }
+}
+
+th.Rooting, th.Prediction, th.Winner {
+  text-align: center;
+}
+
+thead tr th {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #aaa;
+  font-weight: normal;
+  letter-spacing: 1.2px
+}
+
+.category-container {
+  margin-bottom: 20px;
+}
+
+.category-title {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
+  /*text-transform: uppercase;*/
+  letter-spacing: 1.1px;
+}
+
+.active {
+  border: 2px #fff solid;
+}
+
+.nominee-table, .main-header {
+  margin: 15px;
+  width: 100%;
+}
+
+.icon {
+  max-width: 32px;
+}
+
+.main-header {
+  margin: auto;
+}
+
+tbody {
+  margin-top: 15px;
+}
+
+.nominee-title {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.nominee-sub {
+  font-size: 12px;
+  color: #aaa;
+  font-style: italic; 
+  line-height: 14px;
+}
+
+.nominee-cell, th.Nominee {
+  width: 46%;
+}
+
+.rooting-cell, .predition-cell, .winner-cell, th.Rooting, th.Prediction, th.Winner {
+  width: 18%;
+  padding: 5px;
+}
+
+.rooting-yes {
+}
+
+.prediction-yes {
+}
+
+.winner-yes {
+}
+
+.credits {
+  background-color: #eee;
+  padding: 5px 15px;
+}
+
+.credits h6 {
+  margin-bottom: 0px;
+}
+
+.credits ul li, .credits p {
+  font-size: 11px;
+}
+
+.credits ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 475px) {
+  .nominee-cell, th.Nominee {
+    width: 30%;
+  }
+  .rooting-cell, .predition-cell, .winner-cell, th.Rooting, th.Prediction, th.Winner {
+    width: 20%;
+  }
+  .nominee-table {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu li a {
+    padding: 3px 20px;
+    background-color: #fff;
+  }
+}
